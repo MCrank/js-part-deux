@@ -41,3 +41,11 @@ console.log('IndexOf:', pie.indexOf('cat')); // -1 Not found
 const quote = 'winter is coming';
 const newQuote = quote.replace(/is/g, "isn't");
 console.log('Replace:', newQuote);
+
+// Object
+const fancyObject = {};
+
+fancyObject.color = 'red'; //Dot notation
+fancyObject['number'] = 10; //Bracket Notation
+
+console.log('Fancy Object:', fancyObject);
